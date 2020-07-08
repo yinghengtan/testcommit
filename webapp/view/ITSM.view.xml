@@ -1,0 +1,69 @@
+<mvc:View controllerName="ITSM.ITSM_Interface.controller.ITSM" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns="sap.m"
+	xmlns:f="sap.f" xmlns:layout="sap.ui.layout" height="100%">
+	<f:DynamicPage id="dynamicPageId" stickySubheaderProvider="iconTabBar" class="sapUiNoContentPadding" toggleHeaderOnTitleClick="false"
+		showFooter="true">
+		<!-- DynamicPage Title -->
+		<f:title>
+			<f:DynamicPageTitle>
+				<f:heading>
+					<Title text="ITSM Interface"/>
+				</f:heading>
+			</f:DynamicPageTitle>
+		</f:title>
+		<!-- DynamicPage Header -->
+		<f:header>
+			<f:DynamicPageHeader pinnable="false">
+				<ProgressIndicator id="prgsInd" class="sapUiSmallMarginBottom" percentValue="0" displayValue="0%" showValue="true" state="None"/>
+			</f:DynamicPageHeader>
+		</f:header>
+		<f:content>
+			<IconTabBar id="iconTabBar" class="sapUiResponsiveContentPadding">
+				<items>
+					<IconTabFilter id="itf_1" text="Basic Information">
+						<ScrollContainer height="100%" width="100%" vertical="true">
+							<layout:VerticalLayout class="sapUiContentPadding">
+								<Panel id="idPanel_C1"/>
+							</layout:VerticalLayout>
+						</ScrollContainer>
+					</IconTabFilter>
+					<IconTabFilter id="itf_2" text="Category 2">
+						<ScrollContainer height="100%" width="100%" vertical="true">
+							<layout:VerticalLayout class="sapUiContentPadding">
+								<Panel id="idPanel_C2"/>
+							</layout:VerticalLayout>
+						</ScrollContainer>
+					</IconTabFilter>
+					<IconTabFilter id="itf_3" text="Category 3">
+						<ScrollContainer height="100%" width="100%" vertical="true">
+							<layout:VerticalLayout class="sapUiContentPadding">
+								<Panel id="idPanel_C3"/>
+							</layout:VerticalLayout>
+						</ScrollContainer>
+					</IconTabFilter>
+					<IconTabFilter id="itf_4" text="Category 4">
+						<layout:VerticalLayout class="sapUiContentPadding">
+							<Panel id="idPanel_C4"/>
+						</layout:VerticalLayout>
+					</IconTabFilter>
+					<IconTabFilter id="itf_5" text="Category 5">
+						<layout:VerticalLayout class="sapUiContentPadding">
+							<Panel id="idPanel_C5"/>
+						</layout:VerticalLayout>
+					</IconTabFilter>
+					<IconTabFilter id="itf_6" text="Category 6">
+						<layout:VerticalLayout class="sapUiContentPadding">
+							<Panel id="idPanel_C6"/>
+						</layout:VerticalLayout>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>
+		</f:content>
+		<!-- DynamicPage Footer -->
+		<f:footer>
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+				<Button id="btnSubmit" type="Accept" text="Submit" width="100px" press="onSubmit"/>
+			</OverflowToolbar>
+		</f:footer>
+	</f:DynamicPage>
+</mvc:View>

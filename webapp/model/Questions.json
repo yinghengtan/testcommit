@@ -1,0 +1,1409 @@
+{
+	"@odata.context": "$metadata#Questions(possibilities(),category())",
+	"value": [{
+		"createdAt": "2020-06-08T12:13:45.709Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.709Z",
+		"modifiedBy": "anonymous",
+		"id": 5,
+		"question": "Do you have a S-User, which can be used for technical connections?",
+		"ranking": 10,
+		"type": "single",
+		"category_id": 1,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 1,
+			"name": "Basis Information"
+		},
+		"possibilities": [{
+			"id": 7,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": true,
+			"questions_id": 5
+		}, {
+			"id": 8,
+			"answerPossibility": "No",
+			"requiresSuccessor": true,
+			"questions_id": 5
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 6,
+		"question": "What is the ID of that S-User?",
+		"ranking": 20,
+		"type": "freetext",
+		"category_id": 1,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 1,
+			"name": "Basis Information"
+		},
+		"possibilities": []
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 7,
+		"question": "Does the user have the following role in the SAP Launchpad? (Note: This Roles are necessary for the migration of SytemMasterData directly from SAP e.g. SystemID, InstallationNumber, )",
+		"ranking": 30,
+		"type": "single",
+		"category_id": 1,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 1,
+			"name": "Basis Information"
+		},
+		"possibilities": [{
+			"id": 9,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": true,
+			"questions_id": 7
+		}, {
+			"id": 10,
+			"answerPossibility": "No",
+			"requiresSuccessor": true,
+			"questions_id": 7
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 8,
+		"question": "When is the GO-Live of the Interface planed?",
+		"ranking": 40,
+		"type": "freetext",
+		"category_id": 1,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 1,
+			"name": "Basis Information"
+		},
+		"possibilities": []
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 9,
+		"question": "Which ITSM Tool do you use?",
+		"ranking": 50,
+		"type": "single",
+		"category_id": 2,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 2,
+			"name": "System Information"
+		},
+		"possibilities": [{
+			"id": 1,
+			"answerPossibility": "SAP SolutionManager",
+			"requiresSuccessor": false,
+			"questions_id": 9
+		}, {
+			"id": 2,
+			"answerPossibility": "Service Now",
+			"requiresSuccessor": false,
+			"questions_id": 9
+		}, {
+			"id": 3,
+			"answerPossibility": "Top Desk",
+			"requiresSuccessor": false,
+			"questions_id": 9
+		}, {
+			"id": 4,
+			"answerPossibility": "HP Service Desk",
+			"requiresSuccessor": false,
+			"questions_id": 9
+		}, {
+			"id": 5,
+			"answerPossibility": "Jira",
+			"requiresSuccessor": false,
+			"questions_id": 9
+		}, {
+			"id": 11,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": true,
+			"questions_id": 9
+		}, {
+			"id": 12,
+			"answerPossibility": "No",
+			"requiresSuccessor": true,
+			"questions_id": 9
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 10,
+		"question": "Does the 3rd party Service Desk provide a standard interface to the SAP Solution Manager?",
+		"ranking": 70,
+		"type": "single",
+		"category_id": 2,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 2,
+			"name": "System Information"
+		},
+		"possibilities": [{
+			"id": 13,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": true,
+			"questions_id": 10
+		}, {
+			"id": 14,
+			"answerPossibility": "No",
+			"requiresSuccessor": true,
+			"questions_id": 10
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 11,
+		"question": "If there is no standard interface to the SAP Solution Manager: Does the 3rd party Service Desk already provide any other interface that can be used?",
+		"ranking": 80,
+		"type": "single",
+		"category_id": 2,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 2,
+			"name": "System Information"
+		},
+		"possibilities": [{
+			"id": 15,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": true,
+			"questions_id": 11
+		}, {
+			"id": 16,
+			"answerPossibility": "No",
+			"requiresSuccessor": true,
+			"questions_id": 11
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 12,
+		"question": "Which kind of interfaces does your ITSM Tool support",
+		"ranking": 90,
+		"type": "multi",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 63,
+			"answerPossibility": "Incident",
+			"requiresSuccessor": false,
+			"questions_id": 12
+		}, {
+			"id": 64,
+			"answerPossibility": "Changes",
+			"requiresSuccessor": false,
+			"questions_id": 12
+		}, {
+			"id": 65,
+			"answerPossibility": "Service Requests",
+			"requiresSuccessor": false,
+			"questions_id": 12
+		}, {
+			"id": 66,
+			"answerPossibility": "Others",
+			"requiresSuccessor": false,
+			"questions_id": 12
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 13,
+		"question": "What kind of Authentification are you supporting? ,",
+		"ranking": 100,
+		"type": "multi",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 67,
+			"answerPossibility": "Oauth",
+			"requiresSuccessor": false,
+			"questions_id": 13
+		}, {
+			"id": 68,
+			"answerPossibility": "Basic Authentication",
+			"requiresSuccessor": false,
+			"questions_id": 13
+		}, {
+			"id": 69,
+			"answerPossibility": "Certificate Based Authentication",
+			"requiresSuccessor": false,
+			"questions_id": 13
+		}, {
+			"id": 70,
+			"answerPossibility": "Authentication via user and password in the payload",
+			"requiresSuccessor": false,
+			"questions_id": 13
+		}, {
+			"id": 71,
+			"answerPossibility": "Others",
+			"requiresSuccessor": false,
+			"questions_id": 13
+		}, {
+			"id": 72,
+			"answerPossibility": "IP-whitelisting",
+			"requiresSuccessor": false,
+			"questions_id": 13
+		}, {
+			"id": 73,
+			"answerPossibility": "We don't use authentication",
+			"requiresSuccessor": false,
+			"questions_id": 13
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 14,
+		"question": "Is your ticket management system reachable via an public URL?,",
+		"ranking": 110,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 17,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": true,
+			"questions_id": 14
+		}, {
+			"id": 18,
+			"answerPossibility": "No",
+			"requiresSuccessor": true,
+			"questions_id": 14
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 15,
+		"question": "Can your ticket management system reach a URL located in the public internet, e.g. via a proxy server or since it is hosted in a cloud system?,",
+		"ranking": 120,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 19,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": true,
+			"questions_id": 15
+		}, {
+			"id": 20,
+			"answerPossibility": "No",
+			"requiresSuccessor": true,
+			"questions_id": 15
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 16,
+		"question": "Do you have a proxy and/ or reverse proxy in your network which might could be reused for that interface?,",
+		"ranking": 130,
+		"type": "multi",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 21,
+			"answerPossibility": "Yes, we have a proxy server",
+			"requiresSuccessor": false,
+			"questions_id": 16
+		}, {
+			"id": 22,
+			"answerPossibility": "I don't know",
+			"requiresSuccessor": false,
+			"questions_id": 16
+		}, {
+			"id": 23,
+			"answerPossibility": "No, we neither have proxy nor reverse proxy",
+			"requiresSuccessor": false,
+			"questions_id": 16
+		}, {
+			"id": 24,
+			"answerPossibility": "Yes, we have a reverse proxy ",
+			"requiresSuccessor": false,
+			"questions_id": 16
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 17,
+		"question": "Does your ticket management system have a single endpoint from which an incident and all related information (users, comments, attachments, status) can be created or updated?,",
+		"ranking": 140,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 25,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 17
+		}, {
+			"id": 26,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 17
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 18,
+		"question": "Are in your ticket system a separate API for incoming texts as like comments, worknotes, ...?,",
+		"ranking": 150,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 74,
+			"answerPossibility": "yes",
+			"requiresSuccessor": false,
+			"questions_id": 18
+		}, {
+			"id": 75,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 18
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 19,
+		"question": "If yes: Can this API handle lists / arrays?,",
+		"ranking": 160,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 27,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": true,
+			"questions_id": 19
+		}, {
+			"id": 28,
+			"answerPossibility": "No",
+			"requiresSuccessor": true,
+			"questions_id": 19
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 20,
+		"question": "Are new texts in a ticket exchanged via a separate API call? ,",
+		"ranking": 170,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 29,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 20
+		}, {
+			"id": 30,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 20
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 21,
+		"question": "Are in your ticket system a separate API for incoming attachments?,",
+		"ranking": 180,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 31,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 21
+		}, {
+			"id": 32,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 21
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 22,
+		"question": "If yes: Can this API handle lists / arrays?,",
+		"ranking": 190,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 33,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": true,
+			"questions_id": 22
+		}, {
+			"id": 34,
+			"answerPossibility": "No",
+			"requiresSuccessor": true,
+			"questions_id": 22
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 23,
+		"question": "Are new attachments in a ticket exchanged via a separate API call? ,",
+		"ranking": 200,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 35,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 23
+		}, {
+			"id": 36,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 23
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 24,
+		"question": "Are in your ticket system a separate API for incoming status changes?,",
+		"ranking": 210,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 37,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 24
+		}, {
+			"id": 38,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 24
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 25,
+		"question": "Are status changes from your ticket management system exchanged via a separate API?,",
+		"ranking": 220,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 39,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 25
+		}, {
+			"id": 40,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 25
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 26,
+		"question": "Does your ticket management system provide the capability to only send the delta from the last exchange? ,",
+		"ranking": 230,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 41,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 26
+		}, {
+			"id": 42,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 26
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 27,
+		"question": "Does your ticket management system provide locking mechanism per entity (ticket)",
+		"ranking": 240,
+		"type": "single",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 43,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 27
+		}, {
+			"id": 44,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 27
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 28,
+		"question": "Does your ticket management system provide a unique idenfier for each ticket (in database meaning: Is there a primary key or a natural key?)",
+		"ranking": 250,
+		"type": "multi",
+		"category_id": 3,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 3,
+			"name": "Technology"
+		},
+		"possibilities": [{
+			"id": 76,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 28
+		}, {
+			"id": 77,
+			"answerPossibility": "Yes, we have a GUID (32 chars HEX Code)",
+			"requiresSuccessor": false,
+			"questions_id": 28
+		}, {
+			"id": 78,
+			"answerPossibility": "Yes, we have a unique number",
+			"requiresSuccessor": false,
+			"questions_id": 28
+		}, {
+			"id": 79,
+			"answerPossibility": "Yes, we have a unique string as identifier",
+			"requiresSuccessor": false,
+			"questions_id": 28
+		}, {
+			"id": 80,
+			"answerPossibility": "We use timestamps as unique identifiers",
+			"requiresSuccessor": false,
+			"questions_id": 28
+		}, {
+			"id": 81,
+			"answerPossibility": "A ticket can uniquely identified by ",
+			"requiresSuccessor": false,
+			"questions_id": 28
+		}, {
+			"id": 82,
+			"answerPossibility": "{input}",
+			"requiresSuccessor": false,
+			"questions_id": 28
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 29,
+		"question": "What Contract does your Company has with Itelligence?,",
+		"ranking": 260,
+		"type": "multi",
+		"category_id": 1,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 1,
+			"name": "Basis Information"
+		},
+		"possibilities": []
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 30,
+		"question": "What types of ticket / entities should be exchanged?,",
+		"ranking": 270,
+		"type": "multi",
+		"category_id": 4,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 4,
+			"name": "IT Service Management Process"
+		},
+		"possibilities": []
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 31,
+		"question": "Do you already use your ITSM tool to handover a ticket to supplier?",
+		"ranking": 280,
+		"type": "single",
+		"category_id": 4,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 4,
+			"name": "IT Service Management Process"
+		},
+		"possibilities": [{
+			"id": 45,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 31
+		}, {
+			"id": 46,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 31
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 32,
+		"question": "Do you have specific assignment groups which are relevant for Itelligence?,",
+		"ranking": 290,
+		"type": "single",
+		"category_id": 4,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 4,
+			"name": "IT Service Management Process"
+		},
+		"possibilities": [{
+			"id": 47,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 32
+		}, {
+			"id": 48,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 32
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 33,
+		"question": "Do you have specific categories which are relevant for Itelligence?,",
+		"ranking": 300,
+		"type": "single",
+		"category_id": 4,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 4,
+			"name": "IT Service Management Process"
+		},
+		"possibilities": [{
+			"id": 49,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 33
+		}, {
+			"id": 50,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 33
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 34,
+		"question": "Do you have specific configuration items which are relevant for Itelligence?,",
+		"ranking": 310,
+		"type": "single",
+		"category_id": 4,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 4,
+			"name": "IT Service Management Process"
+		},
+		"possibilities": [{
+			"id": 51,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 34
+		}, {
+			"id": 52,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 34
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 35,
+		"question": "Do you differ by end-users (everyone who uses the ticket management tool) and service desk users (key users, helpdesk employees),",
+		"ranking": 320,
+		"type": "multi",
+		"category_id": 4,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 4,
+			"name": "IT Service Management Process"
+		},
+		"possibilities": [{
+			"id": 53,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 35
+		}, {
+			"id": 54,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 35
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 36,
+		"question": "Are all end users of your ticket management system allowed to forward tickets to itelligence?,",
+		"ranking": 330,
+		"type": "single",
+		"category_id": 4,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 4,
+			"name": "IT Service Management Process"
+		},
+		"possibilities": [{
+			"id": 55,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 36
+		}, {
+			"id": 56,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 36
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 37,
+		"question": "Which groups of users are allowed to forward tickets to itelligence?,",
+		"ranking": 340,
+		"type": "multi",
+		"category_id": 4,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 4,
+			"name": "IT Service Management Process"
+		},
+		"possibilities": [{
+			"id": 83,
+			"answerPossibility": "all users of our ITSM tool",
+			"requiresSuccessor": false,
+			"questions_id": 37
+		}, {
+			"id": 84,
+			"answerPossibility": "only Key users",
+			"requiresSuccessor": false,
+			"questions_id": 37
+		}, {
+			"id": 85,
+			"answerPossibility": "only Employees of our Service Desk ",
+			"requiresSuccessor": false,
+			"questions_id": 37
+		}, {
+			"id": 86,
+			"answerPossibility": "only Managers",
+			"requiresSuccessor": false,
+			"questions_id": 37
+		}, {
+			"id": 87,
+			"answerPossibility": "{input}",
+			"requiresSuccessor": false,
+			"questions_id": 37
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 38,
+		"question": "How does priorization works in your ticket management system?,",
+		"ranking": 350,
+		"type": "multi",
+		"category_id": 4,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 4,
+			"name": "IT Service Management Process"
+		},
+		"possibilities": [{
+			"id": 88,
+			"answerPossibility": "by urgency",
+			"requiresSuccessor": false,
+			"questions_id": 38
+		}, {
+			"id": 89,
+			"answerPossibility": "by criticality",
+			"requiresSuccessor": false,
+			"questions_id": 38
+		}, {
+			"id": 90,
+			"answerPossibility": "by impact",
+			"requiresSuccessor": false,
+			"questions_id": 38
+		}, {
+			"id": 91,
+			"answerPossibility": "by priority",
+			"requiresSuccessor": false,
+			"questions_id": 38
+		}, {
+			"id": 92,
+			"answerPossibility": "{input}",
+			"requiresSuccessor": false,
+			"questions_id": 38
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 39,
+		"question": "Are there restrictions, who is allowed to change priorities and urgencies? Especially in regards to SLA calculation. ,",
+		"ranking": 360,
+		"type": "single",
+		"category_id": 4,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 4,
+			"name": "IT Service Management Process"
+		},
+		"possibilities": []
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 40,
+		"question": "Imaging you have opened a ticket, which was forwarded to itelligence. What is the status of a ticket in your Ticket Management System that has recently been forwarded to Itelligence? ",
+		"ranking": 370,
+		"type": "freetext",
+		"category_id": 5,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 5,
+			"name": "Ticket Processing"
+		},
+		"possibilities": []
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 41,
+		"question": "Imaging you have opened a ticket, which was forwarded to itelligence. Itelligence takes the ticket in processing. What is the status of that ticket in your Ticket Management System, after Itelligence had taken it to in processing? ",
+		"ranking": 380,
+		"type": "freetext",
+		"category_id": 5,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 5,
+			"name": "Ticket Processing"
+		},
+		"possibilities": []
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 42,
+		"question": "Imaging you have opened a ticket, which was forwarded to itelligence. Itelligence takes the ticket in processing and requests further information from your side. What is the status of that ticket in your Ticket Management System, after Itelligence had requested further information? ",
+		"ranking": 390,
+		"type": "freetext",
+		"category_id": 5,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 5,
+			"name": "Ticket Processing"
+		},
+		"possibilities": []
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 43,
+		"question": "Imaging you have opened a ticket, which was forwarded to itelligence. Itelligence has requested further information from your side and you provided these information. What is the status of the ticket in your Ticket Management System, after you provided further information to Itelligence?",
+		"ranking": 400,
+		"type": "freetext",
+		"category_id": 5,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 5,
+			"name": "Ticket Processing"
+		},
+		"possibilities": []
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 44,
+		"question": "Imaging you have opened a ticket, which was forwarded to itelligence. Itelligence provided a solution proposal. What is the status of the ticket in your Ticket Management System?",
+		"ranking": 410,
+		"type": "freetext",
+		"category_id": 5,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 5,
+			"name": "Ticket Processing"
+		},
+		"possibilities": []
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 45,
+		"question": "Is there an additional text type or field, where the proposed solution should be stored?",
+		"ranking": 420,
+		"type": "single",
+		"category_id": 5,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 5,
+			"name": "Ticket Processing"
+		},
+		"possibilities": [{
+			"id": 57,
+			"answerPossibility": "Yes",
+			"requiresSuccessor": false,
+			"questions_id": 45
+		}, {
+			"id": 58,
+			"answerPossibility": "No",
+			"requiresSuccessor": false,
+			"questions_id": 45
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 46,
+		"question": "Imaging you have opened a ticket, which was forwarded to itelligence. Itelligence already provided a solution proposal. You have tried the solution but you are not satisfied with that solution. What happens with the ticket? ,",
+		"ranking": 430,
+		"type": "multi",
+		"category_id": 5,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 5,
+			"name": "Ticket Processing"
+		},
+		"possibilities": [{
+			"id": 93,
+			"answerPossibility": "status change to state �. (please state in comment)",
+			"requiresSuccessor": false,
+			"questions_id": 46
+		}, {
+			"id": 94,
+			"answerPossibility": "additional text of type � added (please state in comment)",
+			"requiresSuccessor": false,
+			"questions_id": 46
+		}, {
+			"id": 95,
+			"answerPossibility": "ticket will be reopened",
+			"requiresSuccessor": false,
+			"questions_id": 46
+		}, {
+			"id": 96,
+			"answerPossibility": "ticket will be cloned with reference",
+			"requiresSuccessor": false,
+			"questions_id": 46
+		}, {
+			"id": 97,
+			"answerPossibility": "{input}",
+			"requiresSuccessor": false,
+			"questions_id": 46
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 47,
+		"question": "Imaging you have opened a ticket, which was forwarded to itelligence. Itelligence already provided a solution proposal. You have tried the solution and you are fully satisfied with that solution. What happens with the ticket?",
+		"ranking": 440,
+		"type": "single",
+		"category_id": 5,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 5,
+			"name": "Ticket Processing"
+		},
+		"possibilities": [{
+			"id": 59,
+			"answerPossibility": "The ticket is finally closed with a specific status",
+			"requiresSuccessor": false,
+			"questions_id": 47
+		}, {
+			"id": 60,
+			"answerPossibility": "An additional text of an specific text type is added",
+			"requiresSuccessor": false,
+			"questions_id": 47
+		}, {
+			"id": 61,
+			"answerPossibility": "The ticket is closed, but could be reopened in future",
+			"requiresSuccessor": false,
+			"questions_id": 47
+		}, {
+			"id": 62,
+			"answerPossibility": "others",
+			"requiresSuccessor": false,
+			"questions_id": 47
+		}]
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 48,
+		"question": "In which status (singular or plural) can a ticket in your ticket management system be, which was recently forwarded to itelligence from your service desk. ,",
+		"ranking": 450,
+		"type": "freetext",
+		"category_id": 5,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 5,
+			"name": "Ticket Processing"
+		},
+		"possibilities": []
+	}, {
+		"createdAt": "2020-06-08T12:13:45.711Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.711Z",
+		"modifiedBy": "anonymous",
+		"id": 49,
+		"question": "There is an 4 Weeks Hyper-Care Phase (incl. Bug fixes) which is supported by Itelligence Integration-Developer. Do you have an Contact Person which gives support from an Customer Point of View?,",
+		"ranking": 460,
+		"type": "",
+		"category_id": 6,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 6,
+			"name": "Go-Live/Support"
+		},
+		"possibilities": []
+	}, {
+		"createdAt": "2020-06-08T12:13:45.710Z",
+		"createdBy": "anonymous",
+		"modifiedAt": "2020-06-08T12:13:45.710Z",
+		"modifiedBy": "anonymous",
+		"id": 99,
+		"question": "What is the name of your ITSM tool",
+		"ranking": 60,
+		"type": "freetext",
+		"category_id": 2,
+		"requiresPossibility_id": null,
+		"category": {
+			"createdAt": "2020-06-08T12:13:45.708Z",
+			"createdBy": "anonymous",
+			"modifiedAt": "2020-06-08T12:13:45.708Z",
+			"modifiedBy": "anonymous",
+			"id": 2,
+			"name": "System Information"
+		},
+		"possibilities": [{
+			"id": 6,
+			"answerPossibility": "input",
+			"requiresSuccessor": true,
+			"questions_id": 99
+		}]
+	}]
+}

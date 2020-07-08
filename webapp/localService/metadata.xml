@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+	<edmx:DataServices>
+		<Schema Namespace="CustomerService" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+			<EntityContainer Name="EntityContainer">
+				<EntitySet Name="AnswerPossibilities" EntityType="CustomerService.AnswerPossibilities">
+					<NavigationPropertyBinding Path="questions" Target="Questions"/>
+				</EntitySet>
+				<EntitySet Name="Questions" EntityType="CustomerService.Questions">
+					<NavigationPropertyBinding Path="possibilities" Target="AnswerPossibilities"/>
+				</EntitySet>
+				<EntitySet Name="QuestionsAndAnswers" EntityType="CustomerService.QuestionsAndAnswers"/>
+				<EntitySet Name="QuestionsAndAnswers2" EntityType="CustomerService.QuestionsAndAnswers2"/>
+			</EntityContainer>
+			<EntityType Name="AnswerPossibilities">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" Type="Edm.Int32" Nullable="false"/>
+				<NavigationProperty Name="questions" Type="CustomerService.Questions" Partner="possibilities">
+					<ReferentialConstraint Property="questions_id" ReferencedProperty="id"/>
+				</NavigationProperty>
+				<Property Name="answerPossibility" Type="Edm.String"/>
+				<Property Name="requiresSuccessor" Type="Edm.Boolean"/>
+				<Property Name="question" Type="Edm.String"/>
+				<Property Name="questions_id" Type="Edm.Int32"/>
+			</EntityType>
+			<EntityType Name="Questions">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" Type="Edm.Int32" Nullable="false"/>
+				<Property Name="question" Type="Edm.String"/>
+				<Property Name="ranking" Type="Edm.Int32"/>
+				<Property Name="category" Type="Edm.String"/>
+				<NavigationProperty Name="possibilities" Type="Collection(CustomerService.AnswerPossibilities)" Partner="questions"/>
+				<Property Name="type" Type="Edm.String"/>
+			</EntityType>
+			<EntityType Name="QuestionsAndAnswers">
+				<Key>
+					<PropertyRef Name="QuestionID"/>
+				</Key>
+				<Property Name="QuestionID" Type="Edm.Int32" Nullable="false"/>
+				<Property Name="AnswerQuestionID" Type="Edm.Int32"/>
+				<Property Name="question" Type="Edm.String"/>
+				<Property Name="answerPossibility" Type="Edm.String"/>
+			</EntityType>
+			<EntityType Name="QuestionsAndAnswers2">
+				<Key>
+					<PropertyRef Name="id"/>
+				</Key>
+				<Property Name="id" Type="Edm.Int32" Nullable="false"/>
+				<Property Name="answerPossibility" Type="Edm.String"/>
+			</EntityType>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>
