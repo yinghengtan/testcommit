@@ -7,6 +7,7 @@ sap.ui.define([
 
 	return Controller.extend("ITSM.ITSM_Interface.controller.ITSM", {
 		onInit: function () {
+			
 			var oModel = this.getModel("questionnaire").getProperty("/");
 			var oTotalQuestion = oModel.value.length;
 			var oCustomerID = "C001";
